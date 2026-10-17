@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: retain-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: retain
+      POSTGRES_PASSWORD: retain
+      POSTGRES_DB: retain
+    ports:
+      - "5432:5432"
+    volumes:
+      - retain_data:/var/lib/postgresql/data
+
+volumes:
+  retain_data:
