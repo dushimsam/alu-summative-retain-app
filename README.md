@@ -4,7 +4,7 @@ A personal expense and budget manager. Users track expenses, set a monthly
 budget and view spending summaries; admins manage categories and see platform
 insights.
 
-**Live app:** _add deployed URL here_
+**Live app:** _[retain-app.clarance.me](https://retain-app.clarance.me/)_
 
 Seeded logins — Admin: `admin@retain.app` / `admin123`, User: `sam@retain.app` / `user123`
 
