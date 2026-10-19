@@ -56,7 +56,7 @@ export function Budget() {
                 onChange={(e) => setMonth(e.target.value)}
               />
             </Field>
-            <Field label="Budget amount">
+            <Field label="Budget amount (USD)">
               <Input
                 type="number"
                 step="0.01"

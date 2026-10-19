@@ -68,7 +68,7 @@ export function ExpenseForm({ categories, expense, onClose, onSaved }: Props) {
         </Field>
 
         <div className="grid grid-cols-2 gap-4">
-          <Field label="Amount">
+          <Field label="Amount (USD)">
             <Input
               type="number"
               step="0.01"

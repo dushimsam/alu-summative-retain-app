@@ -2,9 +2,9 @@ export function formatMoney(value: number | null | undefined) {
   if (value == null) {
     return '-'
   }
-  return value.toLocaleString(undefined, {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
+  return value.toLocaleString('en-US', {
+    style: 'currency',
+    currency: 'USD',
   })
 }
 
